@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:lottie/lottie.dart';
 
-import '../../../../configuration/size_config.dart';
+import '../../../configuration/size_config.dart';
 
 class OnboardingCard extends StatefulWidget {
   //final String imageAsseest;
