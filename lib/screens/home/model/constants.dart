@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-
+import 'package:get/get.dart';
 bool language=false;
-bool theme=true;
+var theme=true.obs;
 TabController tabController;
 
 List categoriesName=[

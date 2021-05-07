@@ -1,9 +1,7 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:university_ecommerce_app/about/animation/about_animation.dart';
-import 'package:university_ecommerce_app/about/models/about_model.dart';
-
-import '../../configuration/size_config.dart';
+import 'package:university_ecommerce_app/configuration/size_config.dart';
+import 'package:university_ecommerce_app/screens/about/models/about_model.dart';
 import 'about_wave_clipper.dart';
 
 class AboutBody extends AnimatedWidget {

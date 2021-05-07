@@ -1,7 +1,7 @@
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:university_ecommerce_app/onboardingscreen/models/onboarding_model.dart';
+import 'package:university_ecommerce_app/screens/onboardingscreen/models/onboarding_model.dart';
 
 import 'components/bottemsheet.dart';
 import '../models/const.dart';

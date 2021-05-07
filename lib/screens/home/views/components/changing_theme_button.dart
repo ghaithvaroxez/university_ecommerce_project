@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:university_ecommerce_app/home/model/constants.dart';
+import 'package:university_ecommerce_app/screens/home/model/constants.dart';
+
 
 class ChangeThemebutton extends StatefulWidget {
   @override
@@ -11,15 +12,16 @@ class _ChangeThemebuttonState extends State<ChangeThemebutton> {
   @override
   Widget build(BuildContext context) {
     return FloatingActionButton(
-      child: theme?Icon(Icons.wb_sunny_outlined):Icon(Icons.nightlight_round),
+      backgroundColor: theme.value==true?Colors.white70:Colors.black.withOpacity(0.7),
+      child: theme.value==true?Icon(Icons.wb_sunny_outlined,color: Colors.black,):Icon(Icons.nightlight_round,color: Colors.white,),
       onPressed: (){
         setState(() {
           // language=!language;
-          if(theme)
+          if(theme.value ==true)
           {Get.changeTheme(ThemeData.dark());
-          theme=!theme;}
+          theme.value=false;}
           else {Get.changeTheme(ThemeData.light());
-          theme=!theme;};
+          theme.value=true;};
         });
       },
     );

@@ -1,5 +1,5 @@
 import 'package:flutter/cupertino.dart';
-import 'file:///C:/Users/Varoxez/AndroidStudioProjects/university_ecommerce_app/lib/onboardingscreen/views/components/onboarding_card.dart';
+import 'package:university_ecommerce_app/screens/onboardingscreen/views/components/onboarding_card.dart';
 
 int currentPage = 0;
 int lang = 0;

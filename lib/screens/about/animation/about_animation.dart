@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:university_ecommerce_app/about/components/about_body.dart';
+import 'package:university_ecommerce_app/screens/about/components/about_body.dart';
+
 
 import '../views/about_view.dart';
 class AboutAnimation extends StatefulWidget {

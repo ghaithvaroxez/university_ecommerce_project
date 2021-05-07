@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:university_ecommerce_app/onboardingscreen/models/const.dart';
-import 'package:university_ecommerce_app/onboardingscreen/models/onboarding_model.dart';
+import 'package:university_ecommerce_app/screens/onboardingscreen/models/const.dart';
+import 'package:university_ecommerce_app/screens/onboardingscreen/models/onboarding_model.dart';
+
 
 AnimatedContainer buildDot({@required int index, @required double height}) {
   return AnimatedContainer(

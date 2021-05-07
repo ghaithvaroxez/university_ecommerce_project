@@ -1,8 +1,5 @@
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
-import 'package:university_ecommerce_app/about/models/about_model.dart';
-
-import '../../configuration/size_config.dart';
 import '../animation/about_animation.dart';
 
 class AboutScreen extends StatelessWidget {
